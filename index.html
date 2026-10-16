@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <div class="display">
+      <div id="history" class="history"></div>
+      <div id="current" class="current">0</div>
+    </div>
+
+    <div class="keys">
+      <button data-action="clear" class="key fn">AC</button>
+      <button data-action="delete" class="key fn">⌫</button>
+      <button data-action="percent" class="key fn">%</button>
+      <button data-op="÷" class="key op">÷</button>
+
+      <button data-num="7" class="key">7</button>
+      <button data-num="8" class="key">8</button>
+      <button data-num="9" class="key">9</button>
+      <button data-op="×" class="key op">×</button>
+
+      <button data-num="4" class="key">4</button>
+      <button data-num="5" class="key">5</button>
+      <button data-num="6" class="key">6</button>
+      <button data-op="−" class="key op">−</button>
+
+      <button data-num="1" class="key">1</button>
+      <button data-num="2" class="key">2</button>
+      <button data-num="3" class="key">3</button>
+      <button data-op="+" class="key op">+</button>
+
+      <button data-num="0" class="key zero">0</button>
+      <button data-action="decimal" class="key">.</button>
+      <button data-action="equals" class="key equals">=</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
